@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>화면설계 평가</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type ="text/javascript" src="js/index.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Titillium+Web&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "header">
+        <a href="index.html"><h1>Lounge</h1></a>
+    </div>
+    <div class = "wrap">    
+        <nav id="top_gnb">
+            <div><a href="series.html">Seriese</a></div>
+            <div><a href="blank.html">Collection</a></div>
+            <div><a href="login.html">Login</a></div>
+            <div><a href="regist.html">Regist</a></div>
+            <div><a href="blank.html">My blog</a></div>
+            <div id="search"><input type="text" placeholder="검색어 입력"><button>검색</button></div>
+        </nav>  
+
+    <div class = "content_wrap">
+        <div class = "section"> 
+            <div class = "inner-section"> 
+                <h1 id = "top">회원가입</h1> <br><br>
+                <form name=frm1 class ="frm1">
+                    <table border=0 width=500 height=400>
+                        <tr>
+                            <th>이름</th>
+                            <td>
+                            <input type=text size=12 maxlength=12 name=irum>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>아이디</th>
+                            <td>
+                <input type=text size=12 maxlength=12 name=id>
+                <input type=button value=확인 align=absmiddle onclick=hello()>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>패스워드</th>
+                            <td>
+                    <input type=password size=12 maxlength=15 name=pw>
+                    패스워드 확인
+                    <input type=password size=12 maxlength=15 name=pw1>
+                            </td>
+                        </tr>
+                                <tr>
+                            <th>성별</th>
+                            <td>
+                            <select name=sex>
+                            <option value="여성" selected>여성</option>
+                            <option value="남성">남성</option>
+                            </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>생년월일</th>
+                            <td><input type="date"/></td>
+                        </tr>
+                        <tr>
+                            <th>전화번호</th>
+                            <td><input type="tel" name="tel" placeholder="전화번호 입력"/></td>
+                        </tr>
+                        
+                        <tr align=center>
+                            <td colspan=2>
+                            <input type=button value=가입하기 onClick="gaib()">
+                            <input type=reset value=다시작성>
+                        </td>
+                        </tr>
+                    </table>
+                    </form>
+                    <br><br>    
+    <div class="footer">
+        <p>&copy;사업자 정보, 문의사항 관련</p>
+    </div>
+</body>
+</html>
